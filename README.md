@@ -6,9 +6,8 @@
 
 # CustomToolbar Component Usage
 Example:
-<custom-toolbar (onUserAction)="handleAction($event)" defaultLayout="true" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-print" title="Print">
-  <!-- Child Elements -->
-</custom-toolbar>
+`<custom-toolbar (onUserAction)="handleAction($event)" defaultLayout="true" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-print" title="Print">
+ Child Elements </custom-toolbar>`
 
 # List of Component Properties
 - Custom toolbar accepts a list of Input attributes or properties.
