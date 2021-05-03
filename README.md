@@ -4,12 +4,13 @@
 - Check the component definition in: https://github.com/rahul-sr/custom-toolbar-demo/tree/main/src/app/custom-toolbar
   and usage in https://github.com/rahul-sr/custom-toolbar-demo/blob/main/src/app/app.component.html 
 
-# CustomToolbar Component
-
+# CustomToolbar Component Usage
+Example:
 <custom-toolbar (onUserAction)="handleAction($event)" defaultLayout="true" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-print" title="Print">
   <!-- Child Elements -->
 </custom-toolbar>
 
+# List of Component Properties
 - Custom toolbar accepts a list of Input attributes or properties.
 - defaultLayout : If its send as true, then the default toolbar will be generated with a button and icon.
 - toolbarClass : Its the custom class that will be applied to toolbar button
