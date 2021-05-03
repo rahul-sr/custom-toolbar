@@ -1,6 +1,8 @@
 # Custom Toolbar Demo
 
-Check the demo on link: https://custom-toolbar.vercel.app/ 
+- Check the demo on link: https://custom-toolbar.vercel.app/ 
+- Check the component definition in: https://github.com/rahul-sr/custom-toolbar-demo/tree/main/src/app/custom-toolbar
+  and usage in https://github.com/rahul-sr/custom-toolbar-demo/blob/main/src/app/app.component.html 
 
 # CustomToolbar Component
 
