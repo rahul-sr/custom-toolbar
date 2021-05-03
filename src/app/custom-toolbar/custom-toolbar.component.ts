@@ -9,6 +9,7 @@ export class CustomToolbarComponent implements OnInit {
   @Input() iconClass: string;
   @Input() toolbarClass: string;
   @Input() title: string;
+  @Input() defaultLayout: boolean;
   @Output() onUserAction: EventEmitter<any> = new EventEmitter();
   constructor() { }
 

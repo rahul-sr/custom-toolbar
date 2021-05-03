@@ -2,29 +2,33 @@
 
 <div class="toolbar">
   <div class="container-fluid">
-      <custom-toolbar (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-pencil" title="Edit">
+      <custom-toolbar>
+        <button class="btn btn-default mgr-10" (click)="handleAction($event)" data-toggle="tooltip" data-placement="bottom" data-container="body"
+          title="Edit">
+          <span>Edit</span>
+      </button>
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-font" title="Font Family">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-font" title="Font Family">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-italic" title="Italic">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-italic" title="Italic">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-bold" title="Bold">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-bold" title="Bold">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-text-height" title="Text Height">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-text-height" title="Text Height">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-tags" title="Tags">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-tags" title="Tags">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-paperclip" title="Attachments">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-paperclip" title="Attachments">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-book" title="References">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-book" title="References">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-zoom-in" title="Zoom In">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-zoom-in" title="Zoom In">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-zoom-out" title="Zoom Out">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-zoom-out" title="Zoom Out">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-print" title="Print">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" toolbarClass="mgr-10" iconClass="glyphicon glyphicon-print" title="Print">
       </custom-toolbar>
-      <custom-toolbar (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-cog" title="Settings">
+      <custom-toolbar defaultLayout="true" (onUserAction)="handleAction($event)" iconClass="glyphicon glyphicon-cog" title="Settings">
       </custom-toolbar>
     </div>
 </div>
